@@ -5,7 +5,7 @@ If you have the public key file saved as `id_rsa.pub`, follow these steps to ret
 ## Steps
 
 1. **Extract the modulus `N`**:
-   Use the script `publickeytofinN.py` to extract `N` from your public key file.
+   Use the script `publickeytofindN.py` to extract `N` from your public key file.
 
     ```sh
     python3 publickeytofindN.py id_rsa.pub
